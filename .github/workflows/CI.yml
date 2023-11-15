@@ -12,7 +12,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 18.4.0
+          node-version: 18.17.0
 
       - name: "🛠️ Build the project"
         run: yarn install
